@@ -1,0 +1,1 @@
+console.log("Premeiros passo no javascritp");
