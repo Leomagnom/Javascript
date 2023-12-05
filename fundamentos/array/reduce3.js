@@ -1,6 +1,6 @@
 Array.prototype.reduce2 = function(callback, valorInicial) {
     const indeceInicial = valorInicial ? 0 : 1
-    let acumulador = valorInicial || this[0]
+    let acumulador = valorInicial || this[0]  
     for (let i = indeceInicial; i < this.length; i++) {
         acumulador = callback(acumulador, this[i], i, this)
     }
