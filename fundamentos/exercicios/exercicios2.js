@@ -1,6 +1,6 @@
 function cumprimentar(nome) {
     const saudacao = "Olá!" 
-    return [saudacao, Leonardo].join(', ').concat("!")
+    return [saudacao, Leonardo].join(', ').concat("!") 
 }
 console.log("Olá!")
 
